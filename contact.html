@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact Us </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylecss.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+        
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="webimages/logo.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">OUR WORK</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="involve.html">GET INVOLVED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contact Us</h1>
+           
+            
+        </section>
+        <!-- JavaScript for toggle menu -->   
+        <script>
+           var navLinks = document.getElementById("navLinks");
+           function showMenu(){
+               navLinks.style.right = "0";
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+           }
+        </script>
+    </body>
+</html>
+
+<!-- about us content -->
+
+
+
+<!-- contact -->
+<section class="location">
+    
+    
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>27 Elm Street, Houghton Estate,<br> 2198, Johannesburg, South Africa</h5>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone-square"></i>
+                <span>
+                    <h5>+27(0)11 568 1131</h5>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope" ></i>
+
+                <span>
+                    <h5> invest@livestockwealth.com</h5>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your name" required>
+                    <input type="text" name="subject" placeholder="Enter your name" required>
+                    <textarea rows="8" name="message" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-bt red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="cta">
+    <h1>Invest In Yourself Now!</h1>
+    <a href " class="hero-btn">CONTACT US</a>
+</section>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylecss.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+        
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="webimages/logo.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">OUR WORK</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="involve.html">GET INVOLVED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+           
+            
+        </section>
+        <!-- JavaScript for toggle menu -->   
+        <script>
+           var navLinks = document.getElementById("navLinks");
+           function showMenu(){
+               navLinks.style.right = "0";
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+           }
+        </script>
+    </body>
+</html>
+
+<!-- about us content -->
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>Our History</h1>
+            <p>Livestock Wealth introduced South Africa to Crowdfarming™ back in 2015 and since then we have been refining our product offering, streamlining processe<br> and helping our investors grow their wealth the African way.</p>
+        </div>
+        <div class="about-col"></div>
+        <img src="webimages/history.jpg">
+    
+        <div class="about-col">
+            <h1>Our Mission</h1>
+            <p>Our platform has helped our clients to invest in tangible,<br> growing assets at the click of a button. Innovation is at the heart<br> of what we do and we aim to expand our product range and to become the foremost Crowdfarming™ platform in the world.</p>
+        </div>
+        <div>
+            <h2>Media release!</h2>
+            <p>A few of our media releases on how our platform has helped our clients to invest in tangible,<br> growing assets at the click of a button.</p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ibqCGX-nS30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+</section>
+
+
+<section class="cta">
+    <h1>Invest In Yourself Now!</h1>
+    <a href="contact.html" " class="hero-btn">CONTACT US</a>
+</section>

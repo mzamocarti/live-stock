@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Our Work</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylecss.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+        
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="webimages/logo.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">OUR WORK</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="involve.html">GET INVOLVED</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Work</h1>
+           
+            
+        </section>
+        <!-- JavaScript for toggle menu -->   
+        <script>
+           var navLinks = document.getElementById("navLinks");
+           function showMenu(){
+               navLinks.style.right = "0";
+           }
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+           }
+        </script>
+    </body>
+</html>
+
+<!-- our work content -->
+<section class="work">
+    <h1>Investments we offer</h1>
+    
+   <table>
+               <tr>
+                   <th>Investment</th>
+                   <th>Term</th>
+                   <th>Price</th>
+                   <th>Profit</th>
+                   <th>Total Returns</th>
+               </tr>
+               <tr>
+                   <td>
+                       <div class="invest">
+                           
+                           Macadamia Nut Tree
+                           
+                       </div>
+                   </td>
+                   <td>6yrs</td>
+                   <td> R2000</td>
+                   <td>R1948-2164</td>
+                   <td>R3948-4164</td>
+               </tr> 
+               <tr>
+                   <td>
+                       <div class="invest">
+                           
+                           Connected Garden
+                           
+                       </div>
+                   </td>
+                   <td>5yrs</td>
+                   <td> R8200</td>
+                   <td>R5000</td>
+                   <td>R13200</td>
+               </tr> 
+               <tr>
+                   <td>
+                       <div class="invest">
+                           
+                           Free Range Ox
+                           
+                       </div>
+                   </td>
+                   <td>6 months</td>
+                   <td> R11529</td>
+                   <td>R576-807</td>
+                   <td>R12105-12336</td>
+               </tr> 
+               <tr>
+                   <td>
+                       <div class="invest">
+                           
+                           Pregnant Cow
+                           
+                       </div>
+                   </td>
+                   <td>12 months</td>
+                   <td> R18730</td>
+                   <td>R1873-2622</td>
+                   <td>R20603-21352</td>
+               </tr> 
+                 
+               
+               
+           </table>
+    
+</section>
+
+
+<section class="cta">
+    <h1>Invest In Yourself Now!</h1>
+    <a href="contact.html" " class="hero-btn">CONTACT US</a>
+</section>
